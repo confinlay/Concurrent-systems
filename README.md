@@ -1,5 +1,5 @@
-# Concurrent Systems and Operating Systems
-A repository containing 3 practical exercises demonstrate the use of concurrency to accelerate the performance of computer programs.
+# Introduction
+A repository containing 3 practical exercises I undertook as part of a "Concurrent Systems & Operating Systems" module at university. The purpose of these exercises was to demonstrate the benefits and risks of concurrency in the execution of computer programs.
 
 ### Practical 1 - Sum of Hellos
 A simple exercise to observe how Unix threads (pthreads) complete tasks concurrently.
