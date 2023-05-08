@@ -1,0 +1,5 @@
+spin -a writers-and-reader.pml
+cc -DSAFETY -o safe pan.c
+cc -DNP -o np pan.c
+./safe -m1000000    # safety check, similar to spin -run writer-and-readers.pml
+./np -l -m1000000   # looks for non-progress cycles
